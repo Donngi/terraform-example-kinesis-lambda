@@ -2,6 +2,7 @@ import os
 import boto3
 import logging
 
+
 def lambda_handler(event, context):
     # Simply put event data to kinesis data streams.
     logger = logging.getLogger()
